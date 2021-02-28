@@ -1,0 +1,99 @@
+  #emojis {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
+  div#emojis div {
+    text-align: center;
+  }
+  
+  .angry, .happy, .sad, .confused, .scared, .tired {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .emojis label {
+    display: flex;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  #angry:hover{
+    background-color:red;
+    border-radius: 30px;
+  }
+  
+  #happy:hover{
+    background-color:yellow;
+    border-radius: 30px;
+  }
+  
+  #sad:hover{
+    background-color:blue;
+    border-radius:30px;
+  }
+  
+  #confused:hover {
+    background-color:#00cf15;
+    border-radius:30px;
+  }
+  
+  #scared:hover {
+    background-color:#9849bf;
+    border-radius:30px;
+  }
+  
+  #tired:hover{
+    background-color:orange;
+    border-radius:30px;
+  }
+  
+  
+  #buttons {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 30px;
+  }
+  header{
+    
+    padding:40px;
+    text-align:right;
+    margin:0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: rgb(0, 162, 250);
+}
+li {
+  display: inline-flex;
+  font-size: 25px;
+  padding:10px;
+}
+h3{
+  text-align:center;
+  padding:20px;
+  font-size:35px;
+
+}
+
+h4{
+  text-align:center;
+}
+
+#retry{
+  padding: 15px;
+}

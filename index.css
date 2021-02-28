@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+header{
+    background-color: rgb(179, 255, 182);
+    padding:40px;
+    text-align:right;
+    margin:0;
+}
+
+
+li {
+    display: inline-flex;
+    font-size: 25px;
+    padding:10px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h3{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(0, 162, 250);
+}
+
+body{
+    background-image: url("https://i.pinimg.com/736x/3d/2e/3f/3d2e3fb5287acb67ac158a30af991fe2.jpg"); 
+    background-size: 99%;
+    margin:0px;
+}

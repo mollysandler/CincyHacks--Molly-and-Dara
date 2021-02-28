@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>randomquotes.com</title>
+    <link href="coping.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!--imports jquery to access DOM in javascript-->
+  </head>
+  <header>
+    <li class = "home"><a href = "index.html">Home</a></li>
+    <li class = "coping"><a href = "coping.html">Coping Strategies</a></li>
+    <li class = "donations"><a href = "donations.html">Donations</a></li>
+    <li class = "facts"><a href = "facts.html">Fast Facts</a></li>
+    <li class = "resources"><a href = "resources.html">Resources</a></li>
+</header>
+  <body>
+    <div class="container">
+
+      <h3>A lot of people don't know how to handle their emotions due to lack of knowledge. This is a very short and unspecific generator of ways to help yourself! </h3>
+      <h4> DISCLAIMER: These may not be applicable for everyone</h4>
+        
+      <div id = "emojis"> 
+        <div class = "happy"> 
+          <img src = "https://i.imgur.com/uuhLZyT.png" style = "width:50px; height:50px" id="happy"> <label><br /><b>Happy</b> </label>
+        </div>
+      
+        <div class = "sad">
+          <img src = "https://i.imgur.com/jg7ZTrg.png" style = "width:50px; height:50px" id="sad">
+          <label> <br> <b>Sad</b> </label> 
+        </div> 
+
+        <div class = "angry"> 
+          <img src = "https://i.imgur.com/Wohk4Pu.png" id="angry" style = "width:50px; height:50px">
+          <label> <br> <b>Angry</b> </label> 
+        </div>
+        
+        <div class = "confused"> 
+          <img src = "https://i.imgur.com/1DezuM6.png" style = "width:50px; height:50px" id="confused"> 
+          <label> <br> <b>Stressed</b> </label>
+        </div>
+        
+        <div class = "tired"> 
+          <img src = "https://i.imgur.com/bxHVX53.png" style = "width:50px; height:50px" id="tired"> 
+          <label> <br> <b>Tired</b> </label>
+        </div>
+
+        <div class = "scared"> 
+          <img src = "https://i.imgur.com/1DezuM6.png" style = "width:50px; height:50px" id="scared"> 
+          <label> <br> <b>Anxious</b> </label>
+        </div>
+      </div> 
+      
+      <div id = "output">
+        <p id="quoteOutput"></p> 
+      </div>
+
+      <div id="buttons">
+        <button id="retry"> Reset </button> 
+
+      
+      </div> 
+    
+    </div>
+  
+    <script src="coping.js"></script>
+  </body>
+</html>
